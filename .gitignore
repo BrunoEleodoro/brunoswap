@@ -1,0 +1,45 @@
+node_modules/
+cache/
+build/
+deployments/localhost
+deployments/hardhat
+.vscode
+yarn-error.log
+flattened/
+.etherscan-keys.json
+.env
+node_modules
+.env
+coverage
+coverage.json
+typechain
+typechain-types
+
+#Hardhat files
+cache
+artifacts
+
+
+node_modules
+.env
+coverage
+coverage.json
+typechain
+typechain-types
+
+#Hardhat files
+cache
+artifacts
+
+
+node_modules
+.env
+coverage
+coverage.json
+typechain
+typechain-types
+
+#Hardhat files
+cache
+artifacts
+
