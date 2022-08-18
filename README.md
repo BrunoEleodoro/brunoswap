@@ -2,7 +2,7 @@
 
 This project demonstrates a basic Hardhat use case.
 
-This is the contracts for brunoswap-frontend, a yield farming test project on blockchain.
+Those are the contracts for brunoswap-frontend, a yield farming test project on blockchain.
 
 Try running some of the following tasks:
 
