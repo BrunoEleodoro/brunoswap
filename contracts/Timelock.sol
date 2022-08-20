@@ -12,7 +12,7 @@
 pragma solidity ^0.8.0;
 
 // XXX: import "./SafeMath.sol";
-import "@openzeppelin/contracts/math/SafeMath.sol";
+import "@openzeppelin/contracts/utils/math/SafeMath.sol";
 
 contract Timelock {
     using SafeMath for uint256;
@@ -209,7 +209,7 @@ contract Timelock {
         }
 
         // solium-disable-next-line security/no-call-value
-        (bool success, bytes memory returnData) = target.call.value(value)(
+        (bool success, bytes memory returnData) = target.call{value: value}(
             callData
         );
         require(
